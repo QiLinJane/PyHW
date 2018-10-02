@@ -9,7 +9,7 @@ plan done erros ref
 ## Log
 
 - 181003
-    + [x] ex9-ex15; 5h
+    + [ ] ex9-ex15; 5h
 - 181002
     - [x] ex1-ex8; cost 5.1h
     - [x] create repo"PyHW";log it; cost 0.5h
