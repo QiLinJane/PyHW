@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+
+
+print "Hello World!"
+print "Hello Again"
+print "I like typing this"
+print "This is fun"
+print "Yay！Pringting"
+print "I'd much rather you 'not'."
+print 'I "said" do not touch this.'
+print "add a #" 
+# 这是什么意思
