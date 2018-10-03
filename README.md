@@ -9,7 +9,7 @@ plan done erros ref
 ## Log
 
 - 181003
-    + [ ] ex9-ex15; 5h
+    + [x] ex9-ex16; 4h
 - 181002
     - [x] ex1-ex8; cost 5.1h
     - [x] create repo"PyHW";log it; cost 0.5h
@@ -124,6 +124,20 @@ print formatter % (
 ```
 
 'I had this thing.' 'That you could type up right.' "But it didn't sing." 'So I said goodnight.'
+
+### 11ex:把年龄身高输入到了weight = raw_input ()
+
+不能填在这里，应该填在终端命令行。当脚本暂停，输入你的年龄。
+
+### 12ex: pydoc raw_input
+### 13ex: 运行程序不再是上面的 python ex13.py 而是 python ex13.py apple pear grape
+
+参数 argument
+模块 module
+
+### 14ex argv & raw_input
+### 
+
 
 
 
