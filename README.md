@@ -2,19 +2,21 @@
 《笨办法学 Python》实战
 plan done erros ref
 
-
 ## Plan
 刷完 ex1-ex39;目标是做词云和 mapping/atl
 
 ## Log
 
+- 181004
+    + [x] ex18-ex22; 5h
+      + [ ] ex22 倒序进行到 ex17     
 - 181003
-    + [x] ex9-ex16; 4h
+    + [x] ex9-ex17; 4h
 - 181002
     - [x] ex1-ex8; cost 5.1h
     - [x] create repo"PyHW";log it; cost 0.5h
 
-
+## 
 
 ## Error
 
@@ -151,6 +153,27 @@ def print_two_again(arg1, arg2):
 ### 19ex 函数名不能有空格 cheese_and _crackers 是错误的
 ### 19ex print 缩进说明是函数模块的一部分，不缩进就不是函数模块，可以打印；
 ### 20ex 开始变难
+### 21
+
+
+## 二、SymbleTable
+边做边参考官方文档，非常清晰：https://python-reference.readthedocs.io/en/latest/docs/file/seek.html|ex20/ex2001
+词|含义|解释
+---|---|---|---
+function|函数|y(x)|exall
+return|返回|return 右边的东西作为函数的返回值|ex21
+file.seek|指定文件位置|file.seek(0):从文件的开始位置;参考https://python-reference.readthedocs.io/en/latest/docs/file/seek.html|ex20/ex2001
+file.read|Returns specified amount of bytes from the file.|f.read():返回全部内容|ex20
+file.readline|Reads one entire line from the file.|f.readline():返回第一行的 string 字符|ex2001
+file.write|写入|file.write(x);x=open(file_name)|ex17/16
+file.truncate|清空文件|file.truncate()|ex16
+file.close|关闭|file.close()|ex17
+open|打开文件|打开文件并写入：open(file, 'w')|ex17
+def|定义函数|类似于声明,ladies and gentlemen|ex18
+exists|命令|exists 这个命令将文件字符串作为参数，文件存在则返回True;学会通过 import 调用它:from os.path improt exists/exists(file_name)|ex17
+cat|命令|查看全部: cat test.txt|ex17
+"w"|特殊字符串|表示文件的访问模式，写入；read只读；append 追加|ex16
+
 
 
 
