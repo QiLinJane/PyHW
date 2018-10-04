@@ -136,7 +136,26 @@ print formatter % (
 模块 module
 
 ### 14ex argv & raw_input
-### 
+### 17ex 语句里必须有变量；忘记加 %d 
+### 18ex 函数后没有加冒号
+### 18ex def 是定义函数，只定义不调用，当时打印不出来
+比如
+```
+def print_two_again(arg1, arg2):
+    print "arg1: %r, arg2: %r" % (arg1, arg2)
+```
+
+终端是打印不出来，必须再加上函数的内容 
+`print_two("qi", "lin")`
+
+### 19ex 函数名不能有空格 cheese_and _crackers 是错误的
+### 19ex print 缩进说明是函数模块的一部分，不缩进就不是函数模块，可以打印；
+### 20ex 开始变难
+
+
+
+
+
 
 
 

@@ -13,7 +13,7 @@ def print_two_again(arg1, arg2):
 def print_one(arg1):
 	print "arg1: %r" % arg1
 
-# this one takes no arguments
+# this one takes no arguments`
 def print_none():
 	print "I got nothing." # 如果不调用函数 print_none() print 是打印不出来的
 
