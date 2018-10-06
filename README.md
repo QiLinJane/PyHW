@@ -24,8 +24,10 @@ poem = """
 刷完 ex1-ex39;目标是做词云和 mapping/atl
 
 ## Log
+- 181006
+  + ex22:1-16;ex23;ex27-28
 - 181005
-  + [ ] ex22:1-16;ex23; ex25;ex27-28
+    + [x]  ex25;
 - 181004
     + [x] ex18-ex22;ex24; 6h 
       + [ ] ex22 倒序进行到 ex17     
@@ -159,7 +161,7 @@ print formatter % (
 ### 14ex argv & raw_input
 ### 17ex 语句里必须有变量；忘记加 %d 
 ### 18ex 函数后没有加冒号
-### 18ex def 是定义函数，只定义不调用，当时打印不出来
+### 18ex def 的意义是定义函数，只定义不调用，打印不出来
 比如
 ```
 def print_two_again(arg1, arg2):
@@ -170,16 +172,36 @@ def print_two_again(arg1, arg2):
 `print_two("qi", "lin")`
 
 ### 19ex 函数名不能有空格 cheese_and _crackers 是错误的
-### 19ex print 缩进说明是函数模块的一部分，不缩进就不是函数模块，可以打印；
+### 19ex print 缩进说明是函数模块的一部分，表示打印此函数的结果；
 ### 20ex 开始变难
-### 24 函数没有返回值，没有加 return, 报错信息为
+### 24ex 如果函数没有返回值，没有加 return, 则报错信息为
 `typeError: 'NoneType' object is not iterable`
-
+下次遇到此类报错信息就能快速反应是没有加 return 的原因
 \t\t?
 
+### 25ex file.split(' ') 单引号里应该有空格；如没有则报错
+报错
 
-；
+```
+>>> words = ex25.break_words(sentence)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "ex25.py", line 5, in break_words
+    words = stuff.split(' ')
+ValueError: empty separator
 
+```
+
+如何调试？
+尝试1：
+
+- 返回 ex25.py 在 words = stuff.split('') 加空格 => words = stuff.split(' ')
+- 尝试：从头开始输入，不再报错
+
+### 25ex shell 里的语句一句都不能少
+比如：>>> ex25.print_last_word(sorted_words)
+ 当时觉得无关紧要就没有打印，后面 sortedwords 就全乱了
+ 说明函数的位置很重要
 
 ## 二、SymbleTable
 边做边参考官方文档，非常清晰：https://python-reference.readthedocs.io/en/latest/docs/file/seek.html|ex20/ex2001
