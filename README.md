@@ -24,9 +24,9 @@ poem = """
 刷完 ex1-ex39;目标是做词云和 mapping/atl
 
 ## Log
-
++ [x]ex22:1-16;ex23
 - 181008
-    + [x]ex22:1-16;ex23
+    + [x] ex29
 - 181006
     + [x] ex27-28
 - 181005
@@ -205,6 +205,7 @@ ValueError: empty separator
 比如：>>> ex25.print_last_word(sorted_words)
  当时觉得无关紧要就没有打印，后面 sortedwords 就全乱了
  说明函数的位置很重要
+### 26ex x += 1 和 x = x+1
 
 ## 二、SymbleTable
 边做边参考官方文档，非常清晰：https://python-reference.readthedocs.io/en/latest/docs/file/seek.html|ex20/ex2001
